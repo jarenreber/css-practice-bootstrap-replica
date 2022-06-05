@@ -1,0 +1,82 @@
+:root {
+    --nav-font: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: url('https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg');
+    background-repeat: none;
+    background-position: center center;
+    background-size: cover;
+}
+
+.nav h3 {
+    color: #ffc800;
+    padding-left: 4rem;
+    font-size: 2rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: italic;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    padding-bottom: 12rem;
+}
+
+.nav ul {
+    display: flex;
+    padding: 1rem;
+}
+
+.navButtons {
+    color: white;
+    list-style: none;
+    
+}
+
+.anchorNav {
+    color: #ffffff;
+     text-decoration: none;
+     font-size: 20px;
+     font-family: var(--nav-font);
+     padding-right: 10px;
+ }
+
+.anchorNav:hover {
+    color: #ffc800;
+}
+
+#headerText {
+    text-align: center;
+    color: white;
+}
+
+#headerText h2 {
+    font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-style: italic;
+    font-size: 2rem;
+}
+
+#headerText h1 {
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 4rem;
+}
+
+#headerText button {
+    border: none;
+    background-color: #ffc800;
+    color: white;
+    padding: 2rem 3rem;
+    border-radius: 5px;
+    margin-bottom: 5rem;
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-weight: 700;
+    font-style: bold;
+    font-size: 1.2rem;
+}
